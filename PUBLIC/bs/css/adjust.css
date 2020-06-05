@@ -1,0 +1,16 @@
+/**
+ * 调整样式
+ * 
+ * @author   zhengyue
+ * @date     2016-12-22
+ * @version  v1.0.0
+ * 
+ */
+
+textarea{
+	resize: none;
+}
+
+.adjust-display-none{
+	display: none;
+}

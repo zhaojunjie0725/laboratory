@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)http://202.4.130.159/scholarship2/public/index.php/index/login.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- 资源文件 -->
+
+
+    <meta charset="utf-8">
+
+    <title>用户模块</title>
+    <link rel="stylesheet"  href="/Lab/public/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Lab/public/bs/css/adjust.css">
+    <link rel="stylesheet" href="/Lab/public/bs/css/index.css">
+    <link rel="stylesheet" href="/Lab/public/bs/css/login.css">
+    <script src="/Lab/public/bs/js/jquery.min.js"></script>
+    <script src="/Lab/public/bs/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+<div id="all">
+    <div id="login-view">
+        <div class="cover cover-white"></div>
+
+        <div class="cover">
+            <div class="cover-title">实验室设备管理系统</div>
+            <form class="form-horizontal" method="post" action="../Function/register.php">
+                <div class="input-group adjust-input">
+                    <div class="input-group-addon adjust-glyphicon">
+                        <span class="glyphicon glyphicon-user"></span>
+                    </div>
+                    <input type="text" class="form-control " name="name" placeholder="请输入账号" value="">
+                </div>
+                <div class="input-group adjust-input">
+                    <div class="input-group-addon adjust-glyphicon">
+                        <span class="glyphicon glyphicon-lock"></span>
+                    </div>
+                    <input type="password" class="form-control " name="password" placeholder="请输入密码" value="">
+                </div>
+                <div class="input-group adjust-input">
+                    <div class="input-group-addon adjust-glyphicon">
+                        <span class="glyphicon glyphicon-lock"></span>
+                    </div>
+                        <select class="form-control" name="type">
+                            <option value="1">一般用户</option>
+                            <option value="2">管理员</option>
+                            <option value="3">维修员</option>
+                            <option value="4">系统管理员</option>
+                        </select>
+                </div>
+
+                <div class="input-group adjust-input">
+                    <div class="text-danger">
+                                            </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-8 col-sm-offset-2 adjust-button">
+                        <button type="submit" class="btn btn-block" name="submit">注册</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+
+<nav class="navbar navbar-fixed-bottom adjust-footer">
+    <div class="container">
+        <p class="text-center text-primary">
+        </p>
+    </div>
+</nav>
+
+
+
+
+
+</body></html>

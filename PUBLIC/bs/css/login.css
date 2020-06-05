@@ -1,0 +1,64 @@
+/**
+ * @author    zhengyue
+ * @version   v1.0.0
+ * @time      2016-04-12
+ */
+
+#all{
+	background-color: #f09d00;
+	overflow: hidden;
+	margin-top:90px;
+}
+
+#login-view{
+	background-image: url(../images/login_bg.jpg);
+	float: right;
+	height: 521px;
+	overflow: hidden;
+	position: relative;
+	width: 1121px;
+}
+
+.cover{
+	height: 340px;
+	position: absolute;
+	right: 180px;
+	top: 86px;
+	width: 360px;
+	z-index: 99;
+}
+
+.cover-white{
+	background-color: #ffffff;
+	filter:alpha(opacity=70);  /*IE滤镜，透明度50%*/
+	-moz-opacity:0.7;          /*Firefox私有，透明度50%*/
+	opacity:0.7;               /*其他，透明度50%*/
+	z-index: 1;
+}
+
+.cover-title{
+	font-size: 16px;
+	font-family: Microsoft Yahei;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 40px;
+	width: 100%;
+}
+
+.adjust-input{
+	padding: 20px 65px 0 65px;
+}
+
+.adjust-glyphicon{
+	background-color: #ffffff;
+	color: #ccc;
+}
+
+.adjust-button{
+	margin-top: 20px;
+}
+
+.adjust-button button{
+	background-color: #f09d00;
+	color: #ffffff;
+}
