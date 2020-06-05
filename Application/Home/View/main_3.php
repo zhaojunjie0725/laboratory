@@ -3,9 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<title>维护员界面</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css"> 
 	<link rel="stylesheet"  href="/Lab/public/bs/css/bootstrap.min.css">
 	<script src="/Lab/public/bs/js/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 	<script src="/Lab/public/bs/js/bootstrap.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container">

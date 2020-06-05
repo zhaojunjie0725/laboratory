@@ -28,7 +28,7 @@ $regdate = time();
 $sql = "INSERT INTO user_1(name,password,type)VALUES('$username','$password','$type')";
 
 if(mysql_query($sql,$conn)){
-    exit('用户注册成功！点击此处 <a href="login.html">登录</a>');
+    exit('用户注册成功！点击此处 <a href="../View/login_1.html">登录</a>');
 } else {
     echo '抱歉！添加数据失败：',mysql_error(),'<br />';
     echo '点击此处 <a href="javascript:history.back(-1);">返回</a> 重试';
